@@ -1,5 +1,5 @@
+import { riotGamesApiBr1 } from '@services/api';
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { riotGamesApiBr1 } from '../../../../services/api';
 
 interface ISummonerData {
   id: string;

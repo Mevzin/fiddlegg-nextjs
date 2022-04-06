@@ -1,5 +1,5 @@
+import { riotGamesApiAmericas } from '@services/api';
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { riotGamesApiAmericas } from '../../../../services/api';
 
 export default async function search(req: NextApiRequest, res: NextApiResponse) {
   const { puuid } = req.query;

@@ -1,16 +1,27 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+}
+body{
+    -webkit-font-smoothing: antialiased;
+}
+body, input, button{
+    font: 14px 'Righteous', cursive;
+}
+a, p, h1, h2, h3, h4, h5, h6{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+    border: none;
+}
+body{
+    background-color: #343434;
 }

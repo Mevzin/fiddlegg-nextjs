@@ -1,0 +1,17 @@
+[
+  {
+    "name": "League of Legends",
+    "imageUrl": "../../assets/leagueBackground.jpg",
+    "tag": ""
+  },
+  {
+    "name": "Fortnite",
+    "imageUrl": "",
+    "tag": ""
+  },
+  {
+    "name": "Fall Guys",
+    "imageUrl": "",
+    "tag": ""
+  }
+]

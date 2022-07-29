@@ -12,6 +12,6 @@ export const riotGamesApiBr1 = axios.create({
 export const riotGamesApiAmericas = axios.create({
   baseURL: "https://americas.api.riotgames.com/lol/",
   headers: {
-    "X-Riot-Token":tokenApi,
+    "X-Riot-Token": tokenApi,
   },
 });

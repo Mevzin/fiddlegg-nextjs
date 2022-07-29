@@ -4,7 +4,7 @@ interface ContainerProps {
   backgroundImage: string;
 }
 
-export const Container = styled.div<ContainerProps>`
+const Container = styled.div<ContainerProps>`
   display: flex;
   height: 100%;
   align-items: center;
@@ -13,10 +13,10 @@ export const Container = styled.div<ContainerProps>`
   background-image: url(${({ backgroundImage }) => backgroundImage});
 `;
 
-export const Content = styled.div`
+const Content = styled.div`
   width: 1100px;
   height: 700px;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   margin: auto 0;
   border-radius: 25px;
   display: flex;
@@ -25,7 +25,7 @@ export const Content = styled.div`
   justify-content: space-evenly;
 `;
 
-export const LogoWrapper = styled.div`
+const LogoWrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -40,58 +40,67 @@ export const LogoWrapper = styled.div`
   }
 `;
 
-export const InputContainer = styled.div`
+const InputContainer = styled.div`
   display: flex;
   height: 60px;
   width: 700px;
   justify-content: space-between;
   border-radius: 100px;
-  background-color: #4E4D4D;
+  background-color: #4e4d4d;
 
   input {
-      padding: 10px;
-      border: none;
-      border-radius: 4px;
-      text-align: center;
-      width: 60%;
-      background-color: #4E4D4D;
-      color: #b0aeae;
-      transition: 0.3s;
-      box-shadow: 0px 1px #000000;
-      &:focus{
-        color: #FFFFFF;
-      }
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    width: 60%;
+    background-color: #4e4d4d;
+    color: #b0aeae;
+    transition: 0.3s;
+    box-shadow: 0px 1px #000000;
+    &:focus {
+      color: #ffffff;
     }
-    select {
-      color: #fff;
-      text-align: center;
-      align-items: center;
-      background-color: #4E4D4D;
-      padding: 10px;
-      width: 18%;
-      margin: 0;
-      border: none;
-    }
-    button {
-      color: #fff;
-      background-color: #4E4D4D;
-      padding: 10px;
-      border-radius: 4px;
-      cursor: pointer;
-      width: 20%;
-    }
+  }
+  select {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    background-color: #4e4d4d;
+    padding: 10px;
+    width: 18%;
+    margin: 0;
+    border: none;
+  }
+  button {
+    color: #fff;
+    background-color: #4e4d4d;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+  }
 `;
 
-export const ButtonLink = styled.button`
-  &:hover{
-        color: #4E4D4D;
-        background-color: #fff;
-      }
+const ButtonLink = styled.button`
+  &:hover {
+    color: #4e4d4d;
+    background-color: #fff;
+  }
 `;
 
-export const GamesContainer = styled.div`
+const GamesContainer = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-evenly;
   margin-top: 50px;
 `;
+
+export {
+  GamesContainer,
+  ButtonLink,
+  InputContainer,
+  LogoWrapper,
+  Content,
+  Container,
+};

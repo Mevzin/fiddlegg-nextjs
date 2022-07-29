@@ -8,6 +8,8 @@ import {
   GamesContainer,
 } from "./styles";
 
+/* eslint-disable @next/next/no-img-element */
+
 import LogoSvg from "../../assets/corvo.png";
 import LolBack from "../../assets/leagueBackground.jpg";
 

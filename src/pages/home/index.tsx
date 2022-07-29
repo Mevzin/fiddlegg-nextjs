@@ -16,7 +16,7 @@ import LolBack from "../../assets/leagueBackground.jpg";
 import GamesOptions from "../../../games.json";
 import CardButton from "components/CardButton";
 
-const Home = () => {
+function Home(){
   const [summoner, setSummoner] = useState("");
   const [locale, setLocale] = useState("");
   const [disabledButton, setDisabledButton] = useState(true);

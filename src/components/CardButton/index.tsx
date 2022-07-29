@@ -7,7 +7,7 @@ interface Props {
   imageUrl: string;
 }
 
-const CardButton = ({ title, imageUrl }: Props) => {
+function CardButton ({ title, imageUrl }: Props) {
 
   console.log(imageUrl)
   return (
